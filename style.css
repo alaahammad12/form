@@ -1,0 +1,72 @@
+html {
+    background-image: url('hqdefaultpyramids.jpg');
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background: rgba(255, 255, 255, 0.74);
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: 'raleway';
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+
+
+h1,
+p {
+    text-align: center;
+    margin: auto;
+}
+
+
+label {
+    display: block;
+    margin: 1em 0 .2em;
+}
+
+
+input,
+select {
+    display: block;
+    width: 100%;
+    padding: .3em;
+    font-size: 20px;
+
+    border: dashed 1px #CCC;
+    resize: vertical;
+    border-radius: 10px;
+}
+
+input[type="email"],
+input[type="tel"] {
+    margin-bottom: 1em;
+}
+
+
+input[type=checkbox],
+input[type=radio] {
+    display: inline;
+    width: auto;
+}
+
+.inline-label {
+    display: inline;
+    width: auto;
+
+}
+
+input[type=submit],
+input[type=reset] {
+    background: rgb(27, 44, 141);
+    margin: 1em 0 0;
+    color: white;
+    border: none;
+    border-radius: 8px; 
+
+}
